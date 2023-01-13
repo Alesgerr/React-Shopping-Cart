@@ -1,0 +1,39 @@
+.div{
+   position: relative;
+}
+h2{
+   position: absolute;
+   transform: translate(-50%,-50%);
+}
+.cart_img{
+ 
+   
+}
+/* @media(max-width: 500px){
+   .Nvln{
+      width: 60%;
+   }
+   img{
+      width: 170px;
+      height: 200px;
+   }
+   h5{
+      font-size: 15px;
+      font-weight: bold;
+   }
+   p{
+      font-size: 10px;
+      font-weight: 100;
+   }
+} */
+@media(max-width: 700px){
+   .cart{
+      flex-direction: column;
+      border: 1px solid gray;
+      padding: 10px;
+   }
+   .cart-div{
+      padding-left: 0rem!important;
+      margin-top: 1rem;
+   }
+}
